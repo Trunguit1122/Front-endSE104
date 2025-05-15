@@ -12,9 +12,9 @@ export const Header: React.FC<HeaderProps> = ({ className = '' }) => {
         {/* Logo và tên hệ thống */}
         <Link to="/" className="flex items-center space-x-2">
           <img 
-            src="/logo.svg" 
+            src="/logo.png" 
             alt="Logo Hệ thống quản lý đại lý" 
-            className="h-10 w-10"
+            className="h-12 w-auto"
           />
           <span className="text-xl font-semibold text-gray-800">
             Hệ thống quản lý đại lý

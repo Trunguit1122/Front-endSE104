@@ -3,7 +3,7 @@ import { Header } from '../../components/landing/Header';
 import { Hero } from '../../components/landing/Hero';
 import { Metrics } from '../../components/landing/Metrics';
 import { Features } from '../../components/landing/Features';
-import { Team } from '../../components/landing/Team';
+import { Partners } from '../../components/landing/Partners';
 import { Footer } from '../../components/landing/Footer';
 
 const Home: React.FC = () => {
@@ -14,7 +14,7 @@ const Home: React.FC = () => {
         <Hero />
         <Metrics />
         <Features />
-        <Team />
+        <Partners />
       </main>
       <Footer />
     </div>

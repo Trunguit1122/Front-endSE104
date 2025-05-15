@@ -40,7 +40,7 @@ export const Hero: React.FC<HeroProps> = ({ className = '' }) => {
           {/* Hình ảnh bên phải */}
           <div className="lg:w-1/2 mt-12 lg:mt-0">
             <img
-              src="/hero-image.jpg"
+              src="/daden.png"
               alt="Quản lý đại lý"
               className="rounded-lg shadow-xl w-full"
             />

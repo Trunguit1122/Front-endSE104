@@ -49,17 +49,17 @@ export const Footer: React.FC<FooterProps> = ({ className = '' }) => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {/* Logo và mô tả */}
           <div className="col-span-2 md:col-span-1">
-            <Link to="/" className="flex items-center space-x-2 mb-4">
+            <Link to="/" className="flex flex-col items-start space-y-3 mb-4">
               <img
-                src="/logo.svg"
+                src="/logo.png"
                 alt="Logo"
-                className="h-8 w-8"
+                className="h-20 w-auto"
               />
               <span className="text-lg font-semibold">
                 Quản lý đại lý
               </span>
             </Link>
-            <p className="text-gray-400 text-sm">
+            <p className="text-gray-400 text-sm mt-2">
               Hệ thống quản lý đại lý toàn diện giúp doanh nghiệp của bạn phát triển.
             </p>
           </div>
